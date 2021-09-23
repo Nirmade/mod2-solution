@@ -1,1 +1,221 @@
+<style type="text/css" media="screen">
+  
+<style>
+/**body styling**/
+body{
+  margin: auto;
+  padding: auto;
 
+}
+
+
+/** extrasmall device only (equal or less than 767px**/ 
+*{
+    box-sizing: border-box;
+  }
+h1 {  
+  text-align: left;
+         color:Green;
+        }
+
+         h2 {
+ /* keep the background color wrapped tight */
+ display: table;
+       right:0;
+      top: 0; 
+      bottom:5px; 
+         color: black;
+         font-weight: bold;
+     }
+
+      .alignright {
+
+    float: right;
+    margin-bottom: 5px;
+}
+.p {
+  align: left;
+  margin-top: 50px;
+  padding:10px;
+}
+        #st-box {
+
+            width: 330px;
+            height:20%;
+            background-color:#ADD8E6;
+            border:1px solid black;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-bottom: 5px;
+            padding: 2px;
+        }
+
+        #nd-box {
+           
+            width: 330px;
+            height:20.%;
+            background-color:#ADD8E6; 
+            border:1px solid black;
+            margin-left: 1px;
+            padding: 2px;
+            margin-bottom: 5px
+        }
+
+        #rd-box {
+           
+            width:330px;
+            height:20%;
+            background-color:#ADD8E6;
+            border:1px solid black;
+            margin-right: 1px;
+            padding: 2px;
+
+        }
+
+
+/**large device only Desktop view**/
+@media (min-width: 992px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+
+  }
+
+   #header-nav {
+      background-color:#ADD8E6;
+                width:100%;
+                height:60px;
+                padding: 2px;
+      border: 1px solid blue;
+  text-align: left;
+  color: black;
+  font-size: 30px;
+    }
+
+h1 {  
+  text-align: center;
+         color:Green;
+        }
+
+        h2 {
+ /* keep the background color wrapped tight */
+ display: table;
+       right:0;
+      top: 0; 
+      bottom:5px; 
+         color: black;
+     }
+    .alignright {
+
+    float: right;
+    margin-bottom: 5px;
+}
+.p {
+  align: left;
+  margin-top: 50px;
+  padding:10px;
+}
+
+  .container {
+            width: 1000px;
+            height:1000px;
+            background-color: white;
+            padding-top:1px;
+            padding-left:1px;
+            padding-right:1px;
+            margin-right: 2px;
+        }
+
+        #st-box {
+            float:left;
+            width: 329px;
+            height:33.33%;
+            background-color:#ADD8E6;
+            border:solid black;
+            margin-right: 2px;
+            margin-left: 2px;
+
+        }
+
+        #nd-box {
+            float:left;
+            width: 329px;
+            height:33.33%;
+            background-color:#ADD8E6; 
+            border:solid black;
+            margin-left: 2px;
+            
+        }
+
+        #rd-box {
+            float:right;
+            width:329px;
+            height:33.33%;
+            background-color:#ADD8E6;
+            border:solid black;
+            margin-right: 2px;
+           margin-left: 1px
+
+        }
+    }
+    /** medium device only (tablet view) **/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+        #st-box {
+           float: left; 
+            width:49%;
+            height: 50%;
+            background-color: #ADD8E6;
+            border:solid black;
+            padding: 1px;
+
+        }
+
+        #nd-box {
+            float:right;
+            width:49%;
+            height: 50%;
+            background-color: pink; 
+            border:solid black;
+            margin-left:1px;
+            margin-right: 1px;
+            padding: 1px;
+        }
+
+        #rd-box {
+            float:right;
+            width: 100%;
+            height:50%;
+            background-color:white;
+            border:solid black;
+            margin-right: 1px;
+            margin-left: 1px
+            padding: 1px;
+
+       }
+       h1 {  
+  text-align: center;
+         color:Green;
+        }
+
+   h2 {
+ /* keep the background color wrapped tight */
+ display: table;
+       right:0;
+      top: 0; 
+      bottom:5px; 
+         color: black;
+     }
+      .alignright {
+
+    float: right;
+    margin-bottom: 5px;
+}
+.p {
+  align: left;
+  margin-top: 50px;
+  pading: 10px;
+}
+
+         </style> 
+        
